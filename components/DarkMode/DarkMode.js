@@ -6,7 +6,7 @@ function DarkMode() {
     const { colorMode, toggleColorMode } = useColorMode();
     return (
         <div>
-            <Button variant="ghost" size="sm" onClick={() => toggleColorMode()}>
+            <Button variant="ghost" size="md" onClick={() => toggleColorMode()}>
                 {colorMode === "light" ?
                     <span role="img" aria-label="moon">🌙</span>
                     :

@@ -1,0 +1,83 @@
+import { Link, Button, HStack } from "@chakra-ui/react";
+import NextLink from "next/link";
+
+import DarkMode from "../DarkMode/DarkMode";
+
+export default function Navigation() {
+    return (
+        <div className="navigation-bar">
+            <HStack
+                mt="15px"
+                padding="25%"
+                justifyContent="center"
+                alignItems="center"
+                py={5}
+            >
+                <HStack alignItems="center" spacing={{ base: 0, md: 2 }}>
+                    <Link
+                        transition="0.5s all ease"
+                        textDecoration="none"
+                        _hover={{
+                            transition: "0.5s all ease",
+                            transform: "scale(1.1)",
+                            textDecoration: "none",
+                        }}
+                    >
+                        <Button size="md" variant="ghost">
+                            Home
+                        </Button>
+                    </Link>
+                    <Link
+                        transition="0.5s all ease"
+                        textDecoration="none"
+                        _hover={{
+                            transition: "0.5s all ease",
+                            transform: "scale(1.1)",
+                            textDecoration: "none",
+                        }}
+                    >
+                        <Button size="md" variant="ghost">
+                            About
+                        </Button>
+                    </Link>
+                    <Link
+                        transition="0.5s all ease"
+                        textDecoration="none"
+                        _hover={{
+                            transition: "0.5s all ease",
+                            transform: "scale(1.1)",
+                            textDecoration: "none",
+                        }}
+                    >
+                        <Button size="md" variant="ghost">
+                            Projects
+                        </Button>
+                    </Link>
+                    <Link
+                        transition="0.5s all ease"
+                        textDecoration="none"
+                        _hover={{
+                            transition: "0.5s all ease",
+                            transform: "scale(1.1)",
+                            textDecoration: "none",
+                        }}
+                    >
+                        <Button size="md" variant="ghost">
+                            Contact
+                        </Button>
+                    </Link>
+                    <Link
+                        transition="0.5s all ease"
+                        textDecoration="none"
+                        _hover={{
+                            transition: "0.5s all ease",
+                            transform: "scale(1.1)",
+                            textDecoration: "none",
+                        }}>
+                        <DarkMode />
+                    </Link>
+                </HStack>
+            </HStack>
+        </div>
+    )
+}
