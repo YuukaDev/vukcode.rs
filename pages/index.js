@@ -1,10 +1,16 @@
-import DarkMode from "../components/DarkMode/DarkMode"
 import Navigation from "../components/Navigation/Navigation"
+import Hero from "../components/Hero/Hero"
 
 export default function Home() {
+
   return (
     <>
-      <Navigation />
+      <div className="container">
+
+        <Navigation />
+        <Hero />
+      </div>
+
     </>
   )
 }
