@@ -7,10 +7,17 @@ function DarkMode() {
     return (
         <div>
             <Button variant="ghost" size="sm" onClick={() => toggleColorMode()}>
-                {colorMode === "light" ? <Icon as={MoonIcon} /> : <Icon as={SunIcon} />}
+                {colorMode === "light" ?
+                    <span role="img" aria-label="moon">🌙</span>
+                    :
+                    <span role="img" aria-label="sun">🌤️</span>
+                }
             </Button>
         </div>
     );
 }
 
 export default DarkMode;
+
+//🌤️
+//🌙
