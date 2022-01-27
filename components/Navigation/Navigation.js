@@ -23,7 +23,7 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button size="md" variant="ghost">
+                        <Button fontSize="1.2em" size="md" variant="ghost">
                             Home
                         </Button>
                     </Link>
@@ -36,7 +36,7 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button size="md" variant="ghost">
+                        <Button fontSize="1.2em" size="md" variant="ghost">
                             About
                         </Button>
                     </Link>
@@ -49,7 +49,7 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button size="md" variant="ghost">
+                        <Button fontSize="1.2em" size="md" variant="ghost">
                             Projects
                         </Button>
                     </Link>
@@ -62,7 +62,7 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button size="md" variant="ghost">
+                        <Button fontSize="1.2em" size="md" variant="ghost">
                             Contact
                         </Button>
                     </Link>
