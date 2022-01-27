@@ -1,13 +1,11 @@
-import Navigation from "../components/Navigation/Navigation"
-import Hero from "../components/Hero/Hero"
+import Layout from "../layout"
 
 export default function Home() {
 
   return (
     <>
       <div className="container">
-        <Navigation />
-        <Hero />
+        <Layout />
       </div>
 
     </>
