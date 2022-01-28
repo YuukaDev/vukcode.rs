@@ -1,9 +1,10 @@
 import { HStack, Box, Heading, Text, Image, Link, Divider, VStack, Flex } from "@chakra-ui/react";
+import Icon from "../Icon/Icon";
 
 export default function Hero() {
     return (
         <VStack className="hero-container">
-            <Box width="35%" float="left" mt="100px">
+            <Box width="35%" float="left" mt="125px">
                 <Heading>Hello, I'm Vuk 👋</Heading>
                 <Divider width="45%" mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
@@ -33,6 +34,9 @@ export default function Hero() {
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="social_headerinfo_svg" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                     </Link>
                 </Flex>
+            </Box>
+            <Box>
+                <Icon />
             </Box>
         </VStack >
     )
