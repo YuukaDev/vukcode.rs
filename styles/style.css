@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 
@@ -10,8 +10,6 @@
   border-right: 5px solid #ff4000;
   animation: animate 2s infinite;
 }
-
-
 
 @keyframes animate {
   0% {
