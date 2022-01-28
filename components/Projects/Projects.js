@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Heading, Image, VStack, Divider } from "@chakra-ui/react";
+import { Box, Heading, VStack } from "@chakra-ui/react";
 import Card from "../Card/Card";
 
 export default function Projects() {

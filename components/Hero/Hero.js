@@ -1,4 +1,4 @@
-import { HStack, Box, Heading, Text, Image, Link, Divider, VStack, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text, Link, Divider, VStack, Flex } from "@chakra-ui/react";
 import Icon from "../Icon/Icon";
 
 export default function Hero() {

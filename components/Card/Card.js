@@ -1,5 +1,9 @@
 
-import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image, Icon, Button, Link } from "@chakra-ui/react";
+
+import { FiGithub } from "react-icons/fi";
+import { AiOutlineLink } from "react-icons/ai";
+
 
 export default function Card() {
     return (
@@ -15,6 +19,14 @@ export default function Card() {
                         </Text>
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
+                    <Box display="flex" gap="10px" fontSize="2em" color="#ff4000" mt="-20px">
+                        <Link>
+                            <Icon as={FiGithub} />
+                        </Link>
+                        <Link>
+                            <Icon as={AiOutlineLink} />
+                        </Link>
+                    </Box>
                 </Box>
             </Box>
 
