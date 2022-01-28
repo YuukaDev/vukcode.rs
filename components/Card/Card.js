@@ -4,8 +4,10 @@ import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 export default function Card() {
     return (
         <>
+            { /*First Card*/}
+
             <Box width="35%" float="left">
-                <Heading mt="10%" mb="-40px">Finance Tracking</Heading>
+                <Heading mt="12%" mb="-35px">Finance Tracking</Heading>
                 <Box width="100%">
                     <Flex alignItems="center" mr="-100px" flexDirection="row">
                         <Text fontSize="1.2em" mr="2rem" textAlign="left">
@@ -15,10 +17,13 @@ export default function Card() {
                     </Flex>
                 </Box>
             </Box>
+
+            { /*Second Card*/}
+
             <Box width="35%" float="left">
                 <Box>
                     <Box display="flex" alignItems="center" justifyContent="center" mr="-47%" mb="-8%">
-                        <Heading mt="10%" mb="20px">Finance Tracking</Heading>
+                        <Heading mt="12%" mb="20px">Finance Tracking</Heading>
                     </Box>
                     <Flex justifyContent="center" alignItems="center" gap="40px" mr="-100px" flexDirection="row">
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
@@ -28,8 +33,11 @@ export default function Card() {
                     </Flex>
                 </Box>
             </Box>
+
+            { /*First Card*/}
+
             <Box width="35%" float="left">
-                <Heading mt="10%" mb="-40px">Finance Tracking</Heading>
+                <Heading mt="12%" mb="-35px">Finance Tracking</Heading>
                 <Box width="100%">
                     <Flex alignItems="center" mr="-100px" flexDirection="row">
                         <Text fontSize="1.2em" mr="2rem" textAlign="left">
@@ -39,6 +47,9 @@ export default function Card() {
                     </Flex>
                 </Box>
             </Box>
+
+            { /*Second Card*/}
+
             <Box width="35%" float="left">
                 <Box>
                     <Box display="flex" alignItems="center" justifyContent="center" mr="-47%" mb="-8%">
