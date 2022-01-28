@@ -41,7 +41,7 @@ export default function Navigation() {
                         </Button>
                     </Link>
                     <Link
-                    href="#projects"
+                        href="#projects"
                         transition="0.5s all ease"
                         textDecoration="none"
                         _hover={{
