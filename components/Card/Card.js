@@ -19,11 +19,18 @@ export default function Card() {
                         </Text>
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
-                    <Box display="flex" gap="10px" fontSize="2em" color="#ff4000" mt="-20px">
-                        <Link>
+                    <Box display="flex" gap="15px" color="#ff4000" mt="-20px">
+                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                            boxShadow: "4px 4px #ff4000",
+                            textDecoration: "none"
+                        }} border="1px solid #ff4000" padding="10px">
+                            GitHub
                             <Icon as={FiGithub} />
                         </Link>
-                        <Link>
+                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                            textDecoration: "none"
+                        }} border="1px solid #ff4000" padding="10px">
+                            Preview
                             <Icon as={AiOutlineLink} />
                         </Link>
                     </Box>
