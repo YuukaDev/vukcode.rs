@@ -1,6 +1,4 @@
 import { Link, Button, HStack } from "@chakra-ui/react";
-import NextLink from "next/link";
-
 import DarkMode from "../DarkMode/DarkMode";
 
 export default function Navigation() {
@@ -15,6 +13,7 @@ export default function Navigation() {
             >
                 <HStack alignItems="center" spacing={{ base: 0, md: 2 }}>
                     <Link
+                        href="/"
                         transition="0.5s all ease"
                         textDecoration="none"
                         _hover={{
@@ -28,6 +27,7 @@ export default function Navigation() {
                         </Button>
                     </Link>
                     <Link
+                        href="/about"
                         transition="0.5s all ease"
                         textDecoration="none"
                         _hover={{
@@ -55,6 +55,7 @@ export default function Navigation() {
                         </Button>
                     </Link>
                     <Link
+                        href="#contact"
                         transition="0.5s all ease"
                         textDecoration="none"
                         _hover={{

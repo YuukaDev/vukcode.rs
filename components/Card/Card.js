@@ -1,5 +1,5 @@
 
-import { Box, Flex, Heading, Text, Image, Icon, Button, Link } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image, Icon, Link } from "@chakra-ui/react";
 
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLink } from "react-icons/ai";
