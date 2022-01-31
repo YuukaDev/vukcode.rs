@@ -1,13 +1,16 @@
-import { Box, Flex, HStack, Heading, Text, Link, Divider, Container, Stack, Icon, Code } from "@chakra-ui/react";
+import { Box, Text, Link, Container, Stack, Icon } from "@chakra-ui/react";
 
 import { FiGithub } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
 
 export default function Footer() {
+    //const [valueStorage] = localStorage.getItem('chakra-ui-color-mode');
     return (
         <Box bg="#171717">
             <Container
+                color="#fff"
                 as={Stack}
                 maxW={'6xl'}
                 py={4}
@@ -19,19 +22,24 @@ export default function Footer() {
                     © vukcode.rs 2022
                 </Text>
                 <Stack direction={'row'} spacing={6}>
-                    <Link>
-                        <Icon>
+                    <Link target="_blank" href="https://github.com/YuukaDev">
+                        <Icon fontSize="1.3em">
                             <FiGithub />
                         </Icon>
                     </Link>
-                    <Link>
-                        <Icon>
+                    <Link target="_blank" href="https://twitter.com/yuukasuoh">
+                        <Icon fontSize="1.3em">
                             <FiTwitter />
                         </Icon>
                     </Link>
-                    <Link>
-                        <Icon>
+                    <Link target="_blank" href="https://www.linkedin.com/in/yuuka-suoh-b996111b5/">
+                        <Icon fontSize="1.3em">
                             <FiLinkedin />
+                        </Icon>
+                    </Link>
+                    <Link href="mailto:yuukadev@gmail.com">
+                        <Icon fontSize="1.3em">
+                            <HiOutlineMail />
                         </Icon>
                     </Link>
                 </Stack>
@@ -40,8 +48,4 @@ export default function Footer() {
     )
 }
 
-
-
-// Socials
-// Built With
 //#171717
