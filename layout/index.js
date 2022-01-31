@@ -1,8 +1,9 @@
+import { Divider } from "@chakra-ui/react"
 import Navigation from "../components/Navigation/Navigation"
 import Hero from "../components/Hero/Hero"
 import Projects from "../components/Projects/Projects"
-import { Divider } from "@chakra-ui/react"
 import Contact from "../components/Contact/Contact"
+import Footer from "../components/Footer/Footer"
 
 export default function Layout() {
     return (
@@ -13,6 +14,7 @@ export default function Layout() {
             <Projects />
             <br /><br /><br />
             <Contact />
+            <Footer />
         </>
     )
 }
