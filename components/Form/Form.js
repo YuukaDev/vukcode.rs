@@ -11,8 +11,8 @@ export default function FormComp() {
     return (
         <VStack>
             <form action="https://formsubmit.co/0a659b40cd7c824cd255011d92034184" method="POST">
-                <input type="hidden" name="_next" value="http://localhost:3000/" />
-                <input type="hidden" name="_captcha" value="false" />
+                <Input type="hidden" name="_next" value="http://localhost:3000/" />
+                <Input type="hidden" name="_captcha" value="false" />
                 <label htmlFor="firstName">First Name</label>
                 <Input onChange={(e) => setObjectData({
                     name: e.target.value
