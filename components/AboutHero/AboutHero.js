@@ -1,15 +1,17 @@
 import {
     VStack,
+    Stack,
     Box,
     Divider,
     Heading,
     Text,
-    List,
-    ListItem,
-    UnorderedList,
     Code,
-    OrderedList
+    Icon,
+    HStack,
 } from "@chakra-ui/react";
+
+import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode, SiNextdotjs, SiChakraui } from "react-icons/si";
+import { FaNode, FaNodeJs } from "react-icons/fa";
 
 export default function AboutHero() {
     return (
@@ -18,7 +20,7 @@ export default function AboutHero() {
                 <Heading>About Me 📜</Heading>
                 <Divider width="35%" mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
-            <Box className="hero-container" fontWeight="thin" fontSize="xx-large" width="35%" float="left" mt="80px">
+            <Box className="hero-container" fontWeight="thin" fontSize="2xl" width="35%" float="left" mt="80px">
                 <Text>
                     Hey, my name is Vuk Gligorić and I am Front End Developer based in Novi Sad, Serbia.
                     <br />
@@ -30,10 +32,13 @@ export default function AboutHero() {
             <Box width="35%" float="left" mt="125px">
                 <Heading>Interest</Heading>
             </Box>
-            <Box className="hero-container" fontWeight="thin" fontSize="xx-large" width="35%" float="left" mt="80px">
+            <Box className="hero-container" fontWeight="thin" fontSize="2xl" width="35%" float="left" mt="80px">
                 <Text>
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
-                    <Box fontSize="0.7em" display="flex" gap="5px">
+                    I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
+                    I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
+
+                    <Box mt="10px" fontSize="0.7em" display="flex" gap="5px">
                         <Code>
                             Ruby
                         </Code>
@@ -49,6 +54,48 @@ export default function AboutHero() {
                     </Box>
                 </Text>
             </Box>
-        </VStack>
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <Box width="35%" float="left" mt="125px">
+                <Heading textAlign="center">Tools & Technologies</Heading>
+            </Box>
+            <Box fs="50px" className="hero-container" fontWeight="thin" float="left" mt="80px">
+                <HStack gap="10px">
+
+                    <Icon>
+                        <SiHtml5 />
+                    </Icon>
+                    <Icon>
+                        <SiCss3 />
+                    </Icon>
+                    <Icon>
+                        <SiJavascript />
+                    </Icon>
+                    <Icon>
+                        <FaNodeJs />
+                    </Icon>
+                    <Icon>
+                        <SiSass />
+                    </Icon>
+                    <Icon>
+                        <SiReact />
+                    </Icon>
+                    <Icon>
+                        <SiBootstrap />
+                    </Icon>
+                    <Icon>
+                        <SiGit />
+                    </Icon>
+                    <Icon>
+                        <SiVisualstudiocode />
+                    </Icon>
+                </HStack>
+            </Box>
+        </VStack >
     )
 }
+
+//SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode
