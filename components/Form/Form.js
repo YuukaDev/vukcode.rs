@@ -5,47 +5,35 @@ import { useToast } from "@chakra-ui/react";
 
 export default function FormComp() {
     const toast = useToast();
-    const [objectData, setObjectData] = useState({
-        name: "",
-        email: "",
-        subject: ""
-    })
+    const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [subject, setSubject] = useState("");
     return (
         <VStack>
             <form action="https://formsubmit.co/0a659b40cd7c824cd255011d92034184" method="POST">
                 <Box width="400px">
-                    <FormControl isRequired>
-                        <Input
-                            variant="flushed"
-                            type="text"
-                            placeholder="Name"
-                            size="lg"
-                            onChange={(e) => setObjectData({
-                                name: e.target.value
-                            })}
-                        />
-                    </FormControl>
-                    <FormControl isRequired mt={4}>
-                        <Input
-                            variant="flushed"
-                            type="email"
-                            placeholder="Email Adress"
-                            size="lg"
-                            onChange={(e) => setObjectData({
-                                email: e.target.value
-                            })}
-                        />
-                    </FormControl>
-                    <FormControl isRequired mt={4}>
-                        <Textarea
-                            variant="flushed"
-                            placeholder="Message"
-                            size="lg"
-                            onChange={(e) => setObjectData({
-                                subject: e.target.value
-                            })}
-                        />
-                    </FormControl>
+                    <input type="hidden" name="_next" value="http://localhost:3000/" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                        variant="flushed"
+                        type="text"
+                        placeholder="Name"
+                        size="lg"
+                        onChange={(e) => setName(e.target.value)}
+                    />
+                    <input
+                        variant="flushed"
+                        type="email"
+                        placeholder="Email Adress"
+                        size="lg"
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <textarea
+                        variant="flushed"
+                        placeholder="Message"
+                        size="lg"
+                        onChange={(e) => setSubject(e.target.value)}
+                    />
                 </Box>
                 <Button
                     colorScheme="messenger"
