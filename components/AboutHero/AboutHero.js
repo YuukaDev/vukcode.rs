@@ -1,17 +1,16 @@
 import {
     VStack,
-    Stack,
     Box,
     Divider,
     Heading,
     Text,
     Code,
     Icon,
-    HStack,
+    Tooltip
 } from "@chakra-ui/react";
 
-import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode, SiNextdotjs, SiChakraui } from "react-icons/si";
-import { FaNode, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode, SiNextdotjs, SiChakraui, SiLinux } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 export default function AboutHero() {
     return (
@@ -57,43 +56,68 @@ export default function AboutHero() {
             <br />
             <br />
             <br />
-            <br />
-
-            <Box width="35%" float="left" mt="125px">
+            <Box width="35%" float="left">
                 <Heading textAlign="center">Tools & Technologies</Heading>
             </Box>
-            <Box fs="50px" className="hero-container" fontWeight="thin" float="left" mt="80px">
-                <HStack gap="10px">
-
-                    <Icon>
-                        <SiHtml5 />
-                    </Icon>
-                    <Icon>
-                        <SiCss3 />
-                    </Icon>
-                    <Icon>
-                        <SiJavascript />
-                    </Icon>
-                    <Icon>
-                        <FaNodeJs />
-                    </Icon>
-                    <Icon>
-                        <SiSass />
-                    </Icon>
-                    <Icon>
-                        <SiReact />
-                    </Icon>
-                    <Icon>
-                        <SiBootstrap />
-                    </Icon>
-                    <Icon>
-                        <SiGit />
-                    </Icon>
-                    <Icon>
-                        <SiVisualstudiocode />
-                    </Icon>
-                </HStack>
+            <br />
+            <Box display="flex" justifyContent="center" alignItems="center" gap="15px" fontSize="2em">
+                <Tooltip label='HTML5' fontSize='md'>
+                    <span>
+                        <Icon as={SiCss3} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='CSS3' fontSize='md'>
+                    <span>
+                        <Icon as={SiJavascript} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Node.js' fontSize='md'>
+                    <span>
+                        <Icon as={FaNodeJs} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Sass' fontSize='md'>
+                    <span>
+                        <Icon as={SiSass} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='React' fontSize='md'>
+                    <span>
+                        <Icon as={SiReact} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Next.js' fontSize='md'>
+                    <span>
+                        <Icon as={SiNextdotjs} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Bootstrap' fontSize='md'>
+                    <span>
+                        <Icon as={SiBootstrap} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Chakra UI' fontSize='md'>
+                    <span>
+                        <Icon as={SiChakraui} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Git' fontSize='md'>
+                    <span>
+                        <Icon as={SiGit} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Visual Studio Code' fontSize='md'>
+                    <span>
+                        <Icon as={SiVisualstudiocode} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Linux OS' fontSize='md'>
+                    <span>
+                        <Icon as={SiLinux} />
+                    </span>
+                </Tooltip>
             </Box>
+            <br /><br /><br /><br />
         </VStack >
     )
 }
