@@ -6,7 +6,6 @@ import { FiLinkedin } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Footer() {
-    //const [valueStorage] = localStorage.getItem('chakra-ui-color-mode');
     return (
         <Box bg="#171717">
             <Container
