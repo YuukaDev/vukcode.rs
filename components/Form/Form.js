@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Box, FormControl, FormLabel, Input, VStack, Button, Textarea } from "@chakra-ui/react";
+import { Box, Input, VStack, Button, Textarea } from "@chakra-ui/react";
 import { useToast } from "@chakra-ui/react";
 
 
 export default function FormComp() {
     const toast = useToast();
-    //const [email, setEmail] = useState("");
-    //const [name, setName] = useState("");
-    //const [subject, setSubject] = useState("");
+    const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [subject, setSubject] = useState("");
     return (
         <VStack>
             <form action="https://formsubmit.co/0a659b40cd7c824cd255011d92034184" method="POST">

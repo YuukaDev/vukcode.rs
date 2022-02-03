@@ -20,19 +20,19 @@ export default function Card() {
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-20px">
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            GitHub
-                            <Icon as={FiGithub} />
+                        }} display="flex" justifyContent="center" alignItems="center" gap="5px" >
+                            <button className="css-button-3d--blue">
+                                GitHub <Icon as={FiGithub} />
+                            </button>
                         </Link>
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            Preview
-                            <Icon as={AiOutlineLink} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                Preview <Icon as={AiOutlineLink} />
+                            </button>
                         </Link>
                     </Box>
                 </Box>
@@ -52,19 +52,19 @@ export default function Card() {
                         </Text>
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" ml="52.5%" mt="-20px">
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            GitHub
-                            <Icon as={FiGithub} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                GitHub <Icon as={FiGithub} />
+                            </button>
                         </Link>
                         <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            Preview
-                            <Icon as={AiOutlineLink} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                Preview <Icon as={AiOutlineLink} />
+                            </button>
                         </Link>
                     </Box>
                 </Box>
@@ -82,19 +82,19 @@ export default function Card() {
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-20px">
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            GitHub
-                            <Icon as={FiGithub} />
+                        }} display="flex" justifyContent="center" alignItems="center" gap="5px" >
+                            <button className="css-button-3d--blue">
+                                GitHub <Icon as={FiGithub} />
+                            </button>
                         </Link>
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            Preview
-                            <Icon as={AiOutlineLink} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                Preview <Icon as={AiOutlineLink} />
+                            </button>
                         </Link>
                     </Box>
                 </Box>
@@ -114,19 +114,19 @@ export default function Card() {
                         </Text>
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" ml="52.5%" mt="-20px">
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
+                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            GitHub
-                            <Icon as={FiGithub} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                GitHub <Icon as={FiGithub} />
+                            </button>
                         </Link>
                         <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
-                            boxShadow: "4px 4px #ff4000",
                             textDecoration: "none"
-                        }} border="1px solid #ff4000" padding="10px">
-                            Preview
-                            <Icon as={AiOutlineLink} />
+                        }}>
+                            <button className="css-button-3d--blue">
+                                Preview <Icon as={AiOutlineLink} />
+                            </button>
                         </Link>
                     </Box>
                 </Box>

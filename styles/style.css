@@ -15,6 +15,33 @@
   animation: animate 2s infinite;
 }
 
+.css-button-3d--blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  min-width: 110px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  background: #3d348b;
+  box-shadow: 0 5px #2c0b8e;
+}
+.css-button-3d--blue:hover {
+  box-shadow: 0 3px #2c0b8e;
+  top: 1px;
+}
+.css-button-3d--blue:active {
+  box-shadow: 0 0 #2c0b8e;
+  top: 5px;
+}
+
 @keyframes animate {
   0% {
     opacity: 0;
