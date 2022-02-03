@@ -64,10 +64,15 @@ export default function AboutHero() {
             <Box display="flex" justifyContent="center" alignItems="center" gap="15px" fontSize="2em">
                 <Tooltip label='HTML5' fontSize='md'>
                     <span>
-                        <Icon as={SiCss3} />
+                        <Icon as={SiHtml5} />
                     </span>
                 </Tooltip>
                 <Tooltip label='CSS3' fontSize='md'>
+                    <span>
+                        <Icon as={SiCss3} />
+                    </span>
+                </Tooltip>
+                <Tooltip label='Java Script' fontSize='md'>
                     <span>
                         <Icon as={SiJavascript} />
                     </span>
