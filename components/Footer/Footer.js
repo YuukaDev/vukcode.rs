@@ -20,6 +20,16 @@ export default function Footer() {
                 <Text as="samp">
                     © vukcode.rs 2022
                 </Text>
+                <Text>
+                    Built with 💖 and
+                    {" "}
+                    <Link _hover={{
+                        color: "#ff4000"
+                    }}
+                        href="https://nextjs.org/">
+                        Next.js
+                    </Link>
+                </Text>
                 <Stack direction={'row'} spacing={6}>
                     <Link target="_blank" href="https://github.com/YuukaDev">
                         <Icon fontSize="1.3em">

@@ -23,9 +23,9 @@ export default function AboutHero() {
                 <Text>
                     Hey, my name is Vuk Gligorić and I am Front End Developer based in Novi Sad, Serbia.
                     <br />
-                    I build fast and beautiful websites with modern technology I love challenges and complex problems that I can work on, also I love to spend my time learning about new things.
-                    <br />I am currently in my third year of high school outside of programming, I enjoy playing video games, reading manga, reading books about stoicism, and much more.
-                </Text>
+                    I build fast and beautiful websites with modern technology I love challenges and complex problems that I can work on, also I enjoy spending my time learning about new things.
+                    <br />
+                    I am currently in my third year of high school outside of programming, I enjoy playing video games, reading books especially those about stoicism, reading manga, and much more.                </Text>
             </Box>
             <br />
             <Box width="35%" float="left" mt="125px">
@@ -36,7 +36,6 @@ export default function AboutHero() {
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
-
                     <Box mt="10px" fontSize="0.7em" display="flex" gap="5px">
                         <Code>
                             Ruby
@@ -57,7 +56,9 @@ export default function AboutHero() {
             <br />
             <br />
             <Box width="35%" float="left">
-                <Heading textAlign="center">Tools & Technologies</Heading>
+                <Box display="flex" justifyContent="center" alignItems="center" gap="20px">
+                    <Divider bg="#fff" width="20%" /><Heading textAlign="center">Tools & Technologies</Heading><Divider bg="#fff" width="20%" />
+                </Box>
             </Box>
             <br />
             <Box display="flex" justifyContent="center" alignItems="center" gap="15px" fontSize="2em">
