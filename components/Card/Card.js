@@ -4,6 +4,8 @@ import { Box, Flex, Heading, Text, Image, Icon, Link } from "@chakra-ui/react";
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLink } from "react-icons/ai";
 
+// Images
+import ImagePhoto from "../../public/vercel.svg";
 
 export default function Card() {
     return (
@@ -31,7 +33,7 @@ export default function Card() {
                                 discord.js
                             </Link> library it has over 60 commands that includes moderation, action, and much more, a bot is simple so that means everyone can use it, the bot is currently offline because of rework he is getting
                         </Text>
-                        <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
+                        <Image width="310px" height="294px" src={ImagePhoto} />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-35px">
                         <Link target="_blank" href="https://github.com/YuukaDev/Xquisite" _hover={{
@@ -60,7 +62,7 @@ export default function Card() {
                         <Heading mt="12%" mb="20px">Aethersio</Heading>
                     </Box>
                     <Flex justifyContent="center" alignItems="center" gap="40px" mr="-100px" flexDirection="row">
-                        <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
+                        <Image width="310px" height="294px" src={ImagePhoto} />
                         <Text fontSize="1.2em" textAlign="left">
                             Aethersio is a chat application made with
                             {" "}
