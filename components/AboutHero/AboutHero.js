@@ -6,7 +6,8 @@ import {
     Text,
     Code,
     Icon,
-    Tooltip
+    Tooltip,
+    Link
 } from "@chakra-ui/react";
 
 import { SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode, SiNextdotjs, SiChakraui, SiLinux } from "react-icons/si";
@@ -34,8 +35,14 @@ export default function AboutHero() {
             <Box className="hero-container" fontWeight="thin" fontSize="2xl" width="35%" float="left" mt="80px">
                 <Text>
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
-                    I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
-                    I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
+                    Creating discord bots using the famous discord.js library, and I would love to go back to making games on the Roblox platform using the
+                    {" "}
+                    <Link _hover={{
+                        color: "#ff4000"
+                    }} href="https://www.lua.org/">
+                        Lua
+                    </Link> language
+
                     <Box mt="10px" fontSize="0.7em" display="flex" gap="5px">
                         <Code>
                             Ruby
