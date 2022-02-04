@@ -34,14 +34,14 @@ export default function Card() {
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-35px">
-                        <Link _hover={{
+                        <Link target="_blank" href="https://github.com/YuukaDev/Xquisite" _hover={{
                             textDecoration: "none"
                         }} display="flex" justifyContent="center" alignItems="center" gap="5px" >
                             <button className="css-button-3d--blue">
                                 GitHub <Icon as={FiGithub} />
                             </button>
                         </Link>
-                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                        <Link target="_blank" href="https://xquisite.netlify.app/" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
                         }}>
                             <button className="css-button-3d--blue">
@@ -81,7 +81,7 @@ export default function Card() {
                             connected with the back-end it has a feature like GitHub authentication provided by firebase, the application is not finished there are some things to be added and fixed, you can contribute to this project if you like as this project is public                        </Text>
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" ml="52.5%" mt="-20px">
-                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                        <Link target="_blank" href="https://github.com/YuukaDev/Aethersio" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
                         }}>
                             <button className="css-button-3d--blue">
@@ -125,14 +125,14 @@ export default function Card() {
                         <Image width="310px" height="294px" src="https://portfolio-neelbavarva.vercel.app/static/media/FinanceTracker.06457114.jpeg" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-75px">
-                        <Link _hover={{
+                        <Link target="_blank" href="https://github.com/YuukaDev/Foody" _hover={{
                             textDecoration: "none"
                         }} display="flex" justifyContent="center" alignItems="center" gap="5px" >
                             <button className="css-button-3d--blue">
                                 GitHub <Icon as={FiGithub} />
                             </button>
                         </Link>
-                        <Link display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                        <Link href="https://foody-react.vercel.app/" target="_blank" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
                         }}>
                             <button className="css-button-3d--blue">
@@ -164,7 +164,7 @@ export default function Card() {
                                 GitHub <Icon as={FiGithub} />
                             </button>
                         </Link>
-                        <Link borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
+                        <Link target="_blank" href="https://www.vukcode.rs/" borderRadius="lg" display="flex" justifyContent="center" alignItems="center" gap="5px" _hover={{
                             textDecoration: "none"
                         }}>
                             <button className="css-button-3d--blue">
