@@ -8,6 +8,7 @@ import { AiOutlineLink } from "react-icons/ai";
 
 // Images
 import Bernie from "/public/xquisite.jpg";
+import VercelImage from "../../public/vercel.svg";
 
 export default function Card() {
     return (
@@ -35,7 +36,7 @@ export default function Card() {
                                 discord.js
                             </Link> library it has over 60 commands that includes moderation, action, and much more, a bot is simple so that means everyone can use it, the bot is currently offline because of rework he is getting
                         </Text>
-                        <Img width="310px" height="294px" src="https://1261988489-files.gitbook.io/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MkhI353Z1E49tYpFHyA%2F-MkhLYaObERJMY5dld0-%2F-MkhLi_P_qLxYFahqPDQ%2Flogo%20xquisite.jpg?alt=media&token=f3c9a18b-f4d7-46a3-88f9-524ff30d3599" />
+                        <img src={VercelImage} />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-35px">
                         <Link target="_blank" href="https://github.com/YuukaDev/Xquisite" _hover={{

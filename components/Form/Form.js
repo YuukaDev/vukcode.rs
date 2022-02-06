@@ -16,7 +16,7 @@ export default function FormComp() {
                     <input type="hidden" name="_captcha" value="false" />
                     <Input
                         mb="10px"
-                        variant="flushed"
+                        variant="outline"
                         type="text"
                         placeholder="Name"
                         size="lg"
@@ -24,14 +24,14 @@ export default function FormComp() {
                     />
                     <Input
                         mb="10px"
-                        variant="flushed"
+                        variant="outline"
                         type="email"
                         placeholder="Email Adress"
                         size="lg"
                         onChange={(e) => setEmail(e.target.value)}
                     />
                     <Textarea
-                        variant="flushed"
+                        variant="outline"
                         placeholder="Message"
                         size="lg"
                         onChange={(e) => setSubject(e.target.value)}
