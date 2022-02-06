@@ -55,3 +55,9 @@
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+
+.image-wrapper span {
+  background-color: red;
+  width: 310px;
+  height: 294px;
+}
