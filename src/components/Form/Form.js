@@ -4,7 +4,7 @@ import { useToast } from "@chakra-ui/react";
 
 
 export default function FormComp() {
-    const toast = useToast();
+    //const toast = useToast();
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const [subject, setSubject] = useState("");
@@ -15,6 +15,7 @@ export default function FormComp() {
                     <input type="hidden" name="_next" value="http://localhost:3000/" />
                     <input type="hidden" name="_captcha" value="false" />
                     <Input
+                        value={name}
                         mb="10px"
                         variant="outline"
                         type="text"
@@ -23,6 +24,7 @@ export default function FormComp() {
                         onChange={(e) => setName(e.target.value)}
                     />
                     <Input
+                        value={email}
                         mb="10px"
                         variant="outline"
                         type="email"
@@ -31,6 +33,7 @@ export default function FormComp() {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                     <Textarea
+                        value={subject}
                         variant="outline"
                         placeholder="Message"
                         size="lg"

@@ -1,14 +1,11 @@
 
-import { Box, Flex, Heading, Text, Icon, Link, Img } from "@chakra-ui/react";
-
-import Image from "../Image/Image";
+import { Box, Flex, Heading, Text, Icon, Link, Image } from "@chakra-ui/react";
 
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLink } from "react-icons/ai";
 
 // Images
-import Bernie from "/public/xquisite.jpg";
-import VercelImage from "../../public/vercel.svg";
+import XquisitePhoto from "../../images/xquisite.jpg";
 
 export default function Card() {
     return (
@@ -36,7 +33,7 @@ export default function Card() {
                                 discord.js
                             </Link> library it has over 60 commands that includes moderation, action, and much more, a bot is simple so that means everyone can use it, the bot is currently offline because of rework he is getting
                         </Text>
-                        <img src={VercelImage} />
+                        <Image borderRadius="md" src={XquisitePhoto} width="310px" height="294px" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-35px">
                         <Link target="_blank" href="https://github.com/YuukaDev/Xquisite" _hover={{
@@ -65,7 +62,7 @@ export default function Card() {
                         <Heading mt="12%" mb="20px">Aethersio</Heading>
                     </Box>
                     <Flex justifyContent="center" alignItems="center" gap="40px" mr="-100px" flexDirection="row">
-                        <Image width="310px" height="294px" src={Bernie} />
+                        <Image src={XquisitePhoto} width="310px" height="294px" />
                         <Text fontSize="1.2em" textAlign="left">
                             Aethersio is a chat application made with
                             {" "}
@@ -127,7 +124,7 @@ export default function Card() {
                                 Chakra UI
                             </Link>
                         </Text>
-                        <Image width="310px" height="294px" src={Bernie} />
+                        <Image width="310px" height="294px" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt="-75px">
                         <Link target="_blank" href="https://github.com/YuukaDev/Foody" _hover={{
@@ -156,7 +153,7 @@ export default function Card() {
                         <Heading mt="10%" mb="20px">vukcode.rs</Heading>
                     </Box>
                     <Flex justifyContent="center" alignItems="center" gap="40px" mr="-100px" flexDirection="row">
-                        <Image width="310px" height="294px" src={Bernie} />
+                        <Image width="310px" height="294px" />
                         <Text fontSize="1.2em" textAlign="left">
                             An android application through which one can scan his/her bill and all the products will be scanned, categorised and will be added to his/her monthly expenses. This app also shows top 100 crypto currencies and clicking on particular crypto all the information (along with chart) will be displayed.
                         </Text>

@@ -3,17 +3,40 @@ import Icon from "../Icon/Icon";
 
 export default function Hero() {
     return (
-        <VStack className="hero-container">
-            <Box width="35%" float="left" mt="125px">
+        <VStack className="hero-container" >
+            <Box width={{
+                sm: "85%",
+                md: "50%",
+                lg: "50%",
+                xl: "35% ",
+            }} float="left" mt={{
+                sm: "50px",
+                lg: "150px",
+                xl: "125px"
+            }}>
                 <Heading>Hello, I'm Vuk 👋</Heading>
-                <Divider width="45%" mt="15px" mb="10px" bg="#ff4000" padding="1px" />
+                <Divider width={{
+                    sm: "70%",
+                    xl: "45%"
+                }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
-            <Box className="hero-container" fontWeight="thin" fontSize="xx-large" width="35%" float="left" mt="80px">
+            <Box className="hero-container" fontWeight="thin" fontSize={{
+                sm: "1.7em",
+                md: "1em",
+                lg: "1.5em",
+                xl: "xx-large",
+            }} width={{
+                sm: "85%",
+                xl: "35%"
+            }} float="left" mt="80px">
                 <Text>
                     I'm just a student who loves to build amazing things and explore different adventures.
                 </Text>
             </Box>
-            <Box width="35%" float="left">
+            <Box width={{
+                sm: "85%",
+                xl: "35%"
+            }} float="left">
                 <Flex mt="20px" fontSize="2em" gap="20px">
                     <Link transition="0.5s all ease" href="https://github.com/YuukaDev" target="_blank" _hover={{
                         transition: "0.5s all ease",

@@ -22,7 +22,12 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button fontSize="1.2em" size="md" variant="ghost">
+                        <Button fontSize={{
+                            sm: "1em",
+                            md: "0.5em",
+                            lg: "1em",
+                            xl: "1.2em",
+                        }} size="md" variant="ghost">
                             Home
                         </Button>
                     </Link>
@@ -36,7 +41,12 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button fontSize="1.2em" size="md" variant="ghost">
+                        <Button fontSize={{
+                            sm: "1em",
+                            md: "0.5em",
+                            lg: "1em",
+                            xl: "1.2em",
+                        }} size="md" variant="ghost">
                             About
                         </Button>
                     </Link>
@@ -50,7 +60,12 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button fontSize="1.2em" size="md" variant="ghost">
+                        <Button fontSize={{
+                            sm: "1em",
+                            md: "0.5em",
+                            lg: "1em",
+                            xl: "1.2em",
+                        }} size="md" variant="ghost">
                             Projects
                         </Button>
                     </Link>
@@ -64,7 +79,12 @@ export default function Navigation() {
                             textDecoration: "none",
                         }}
                     >
-                        <Button fontSize="1.2em" size="md" variant="ghost">
+                        <Button fontSize={{
+                            sm: "1em",
+                            md: "0.5em",
+                            lg: "1em",
+                            xl: "1.2em",
+                        }} size="md" variant="ghost">
                             Contact
                         </Button>
                     </Link>

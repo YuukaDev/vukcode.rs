@@ -41,7 +41,7 @@ export default function AboutHero() {
                         color: "#ff4000"
                     }} href="https://www.lua.org/">
                         Lua
-                    </Link> language
+                    </Link> language.
 
                     <Box mt="10px" fontSize="0.7em" display="flex" gap="5px">
                         <Code>
