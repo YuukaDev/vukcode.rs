@@ -11,7 +11,7 @@ export default function Layout() {
         <>
             <Navigation />
             <Hero />
-            <Divider width="50%" margin="0 auto" mt="5%" />
+            <Divider width={{ sm: "90%", xl: "50%" }} margin="0 auto" mt={{ sm: "20%", xl: "5%" }} />
             <Projects />
             <br /><br /><br /><br /><br />
             <Contact />
