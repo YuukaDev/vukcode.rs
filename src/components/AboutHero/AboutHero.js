@@ -16,11 +16,34 @@ import { FaNodeJs } from "react-icons/fa";
 export default function AboutHero() {
     return (
         <VStack className="hero-container">
-            <Box width="35%" float="left" mt="125px">
+            <Box width={{
+                sm: "85%",
+                md: "50%",
+                lg: "50%",
+                xl: "35% ",
+            }} float="left" mt={{
+                sm: "50px",
+                lg: "150px",
+                xl: "125px"
+            }}>
                 <Heading>About Me 📜</Heading>
-                <Divider width="35%" mt="15px" mb="10px" bg="#ff4000" padding="1px" />
+                <Divider width={{ sm: "70%", xl: "35%" }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
-            <Box className="hero-container" fontWeight="thin" fontSize="2xl" width="35%" float="left" mt="80px">
+            <Box
+                className="hero-container"
+                fontWeight="thin"
+                fontSize={{
+                    sm: "1.3em",
+                    md: "1em",
+                    lg: "1.5em",
+                    xl: "2xl",
+                }}
+                width={{
+                    sm: "85%",
+                    xl: "35%"
+                }}
+                float="left"
+                mt="80px">
                 <Text>
                     Hey, my name is Vuk Gligorić and I am Front End Developer based in Novi Sad, Serbia.
                     <br />
@@ -29,10 +52,29 @@ export default function AboutHero() {
                     I am currently in my third year of high school outside of programming, I enjoy playing video games, reading books especially those about stoicism, reading manga, and much more.                </Text>
             </Box>
             <br />
-            <Box width="35%" float="left" mt="125px">
+            <Box width={{
+                sm: "85%",
+                md: "50%",
+                lg: "50%",
+                xl: "35% ",
+            }} float="left" mt="125px">
                 <Heading>Interest</Heading>
             </Box>
-            <Box className="hero-container" fontWeight="thin" fontSize="2xl" width="35%" float="left" mt="80px">
+            <Box
+                className="hero-container"
+                fontWeight="thin"
+                fontSize={{
+                    sm: "1.3em",
+                    md: "1em",
+                    lg: "1.5em",
+                    xl: "2xl",
+                }}
+                width={{
+                    sm: "85%",
+                    xl: "35%"
+                }}
+                float="left"
+                mt="80px">
                 <Text>
                     I like technology and of course, i like to expand my knowledge every day, although at the moment what catches my eye is
                     Creating discord bots using the famous discord.js library, and I would love to go back to making games on the Roblox platform using the
@@ -62,13 +104,26 @@ export default function AboutHero() {
             <br />
             <br />
             <br />
-            <Box width="35%" float="left">
+            <Box width={{ sm: "90%", xl: "35%" }} float="left">
                 <Box display="flex" justifyContent="center" alignItems="center" gap="20px">
-                    <Divider bg="#fff" width="20%" /><Heading textAlign="center">Tools & Technologies</Heading><Divider bg="#fff" width="20%" />
+                    <Divider bg="#fff" width="20%" />
+                    <Heading textAlign="center">Tools & Technologies</Heading>
+                    <Divider bg="#fff" width="20%" />
                 </Box>
             </Box>
             <br />
-            <Box display="flex" justifyContent="center" alignItems="center" gap="15px" fontSize="2em">
+            <Box
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+                gap={{
+                    sm: "5px",
+                    xl: "15px"
+                }}
+                fontSize={{
+                    sm: "1.5em",
+                    xl: "2em"
+                }}>
                 <Tooltip label='HTML5' fontSize='md'>
                     <span>
                         <Icon as={SiHtml5} />
