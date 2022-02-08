@@ -11,7 +11,7 @@ export default function FormComp() {
     return (
         <VStack>
             <form action="https://formsubmit.co/0a659b40cd7c824cd255011d92034184" method="POST">
-                <Box width="400px">
+                <Box width={{ sm: "330px", xl: "400px" }}>
                     <input type="hidden" name="_next" value="http://localhost:3000/" />
                     <input type="hidden" name="_captcha" value="false" />
                     <Input
