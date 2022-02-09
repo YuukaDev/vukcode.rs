@@ -6,6 +6,7 @@ import { AiOutlineLink } from "react-icons/ai";
 
 // Images
 import XquisitePhoto from "../../images/xquisite.jpg";
+import Foodyya from "../../images/fooddy.png";
 
 export default function Card() {
     return (
@@ -47,7 +48,8 @@ export default function Card() {
                         </Text>
                         <Image
                             mr={{
-                                sm: "45px"
+                                sm: "45px",
+                                xl: "0"
                             }}
                             mt={{
                                 sm: "25px",
@@ -197,7 +199,7 @@ export default function Card() {
                             mr={{
                                 sm: "7.7%",
                                 xl: "0%"
-                            }} src={XquisitePhoto} width="310px" height="294px" />
+                            }} src={Foodyya} width="310px" height="294px" />
                     </Flex>
                     <Box display="flex" gap="15px" color="#ff4000" mt={{
                         sm: "20px",
