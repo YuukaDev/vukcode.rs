@@ -1,13 +1,13 @@
-import { SimpleGrid, Box, Heading, Text, Image } from "@chakra-ui/react"
+import Hero from "../components/Hero/Hero";
+import Navigation from "../components/Navigation/Navigation";
 
 export default function Test() {
     return (
-        <SimpleGrid columns={2} spacing={10}>
-            <Box bg='tomato' w="50%" height='80px'></Box>
-            <Box bg='tomato' w="50%" height='80px'></Box>
-            <Box bg='tomato' w="50%" height='80px'></Box>
-            <Box bg='tomato' w="50%" height='80px'></Box>
-            <Box bg='tomato' w="50%" height='80px'></Box>
-        </SimpleGrid>
+        <>
+            <Navigation />
+            <br /><br />
+            <br /><br />
+            <Hero />
+        </>
     )
 }
