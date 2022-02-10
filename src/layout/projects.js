@@ -1,11 +1,11 @@
 import Navigation from "../components/Navigation/Navigation";
-import AboutHero from "../components/AboutHero/AboutHero";
+import ProjectsComp from "../components/Projects/Projects";
 
-export default function About() {
+export default function Projects() {
     return (
         <div>
             <Navigation />
-            <AboutHero />
+            <ProjectsComp />
         </div>
     )
 }

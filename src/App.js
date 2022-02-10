@@ -2,7 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import customTheme from "./theme/theme";
 
 import Layout from "./layout/index";
-import About from "./layout/about";
+import Projects from "./layout/projects";
 import Test from "./layout/test";
 
 import Particles from 'react-tsparticles';
@@ -23,7 +23,7 @@ function App() {
     <ChakraProvider theme={customTheme}>
       <Routes>
         <Route path="/" element={<Layout />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/test" element={<Test />} />
       </Routes>
     </ChakraProvider>

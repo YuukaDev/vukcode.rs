@@ -2,18 +2,17 @@ import { Divider } from "@chakra-ui/react"
 
 import Navigation from "../components/Navigation/Navigation"
 import Hero from "../components/Hero/Hero"
-import Projects from "../components/Projects/Projects"
 import Contact from "../components/Contact/Contact"
 import Footer from "../components/Footer/Footer"
+import AboutHero from "../components/AboutHero/AboutHero";
 
 export default function Layout() {
     return (
         <>
             <Navigation />
             <Hero />
-            <Divider width={{ sm: "90%", xl: "50%" }} margin="0 auto" mt={{ sm: "20%", xl: "5%" }} />
-            <Projects />
-            <br /><br /><br /><br /><br />
+            <Divider bg="GrayText" width={{ sm: "90%", xl: "50%" }} margin="0 auto" mt={{ sm: "20%", xl: "5%" }} />
+            <AboutHero />
             <Contact />
             <Footer />
         </>

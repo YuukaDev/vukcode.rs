@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import About from './layout/about';
+import Projects from './layout/projects';
 import Test from "./layout/test";
 
 import "./styles/style.css";
@@ -15,7 +15,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/test" element={<Test />} />
         </Route>
       </Routes>

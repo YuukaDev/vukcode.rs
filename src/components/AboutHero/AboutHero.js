@@ -15,7 +15,7 @@ import { FaNodeJs } from "react-icons/fa";
 
 export default function AboutHero() {
     return (
-        <VStack className="hero-container">
+        <VStack className="hero-container" id="about">
             <Box width={{
                 sm: "85%",
                 md: "50%",
@@ -24,7 +24,7 @@ export default function AboutHero() {
             }} float="left" mt={{
                 sm: "50px",
                 lg: "150px",
-                xl: "125px"
+                xl: "100px"
             }}>
                 <Heading>About Me 📜</Heading>
                 <Divider width={{ sm: "70%", xl: "35%" }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
