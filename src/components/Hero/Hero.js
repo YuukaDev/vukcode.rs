@@ -14,7 +14,7 @@ export default function Hero() {
                 lg: "150px",
                 xl: "125px"
             }}>
-                <Heading>Hello, I'm Vuk 👋</Heading>
+                <Heading>Hello, I’m Vuk 👋</Heading>
                 <Divider width={{
                     sm: "70%",
                     xl: "45%"
