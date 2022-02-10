@@ -1,7 +1,28 @@
-import { Box, Heading, VStack, Flex, Divider } from "@chakra-ui/react";
+import { useState, useEffect } from "react";
+import axios from "axios";
+
+import { Box, Heading, VStack, Grid, GridItem, Divider, Link } from "@chakra-ui/react";
+
 import Card from "../Card/Card";
 
 export default function Projects() {
+    const [data, setData] = useState([]);
+
+    const fetchUser = async () => {
+        try {
+            const response = await axios.get(
+                `https://api.github.com/users/YuukaDev/repos`
+            );
+            console.log(response.data);
+            setData(response.data);
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+    useEffect(() => {
+        fetchUser();
+    }, [])
     return (
         <VStack margin="0" id="projects">
             <Box mt={{
@@ -29,19 +50,23 @@ export default function Projects() {
                 lg: "150px",
                 xl: "100px"
             }}>
-                <Flex gap="20px">
-                    <Box width="350px" height="300px" border="1px solid #fff">
-                        <Heading>
-                            Xquisite Bot
-                        </Heading>
-                    </Box>
-                    <Box border="1px solid #fff">
-                        <Heading>
-                            Xquisite Bot
-                        </Heading>
-                    </Box>
-                </Flex>
+                <Box>
+                    <br />
+                    <Grid
+                        alignItems="center"
+                        justifyContent="center"
+                        alignContent="center"
+                        gridGap="4em"
+                        templateColumns="repeat(2, 1fr)"
+                    >
+                        <GridItem
+                            width="400px"
+                            boxShadow="dark-lg">
+                            <Link href="https://github.com/YuukaDev/Xquisite"><img src="https://gh-card.dev/repos/YuukaDev/Xquisite.svg" /></Link>
+                        </GridItem>
+                    </Grid>
+                </Box>
             </Box>
-        </VStack>
+        </VStack >
     )
 }
