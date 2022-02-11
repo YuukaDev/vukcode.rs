@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-import { Box, Heading, VStack, Grid, GridItem, Divider, Link } from "@chakra-ui/react";
+import { Box, Heading, VStack, Grid, GridItem, Divider, Link, Flex } from "@chakra-ui/react";
 
 import Card from "../Card/Card";
 
@@ -52,21 +52,57 @@ export default function Projects() {
             }}>
                 <Box>
                     <br />
-                    <Grid
-                        alignItems="center"
-                        justifyContent="center"
-                        alignContent="center"
-                        gridGap="4em"
-                        templateColumns="repeat(2, 1fr)"
-                    >
-                        <GridItem
-                            width="400px"
+                    <Grid width="700px" gridTemplateColumns="repeat(2, 2fr)" gap="25px">
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
                             boxShadow="dark-lg">
                             <Link href="https://github.com/YuukaDev/Xquisite"><img src="https://gh-card.dev/repos/YuukaDev/Xquisite.svg" /></Link>
-                        </GridItem>
+                        </Box>
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
+                            bg="#fff"
+                            boxShadow="dark-lg">
+                            <Link href="https://github.com/YuukaDev/Foody"><img src="https://gh-card.dev/repos/YuukaDev/Foody.svg" /></Link>
+                        </Box>
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
+                            boxShadow="dark-lg">
+                            <Link href="https://github.com/YuukaDev/GitHub-Searcher"><img src="https://gh-card.dev/repos/YuukaDev/GitHub-Searcher.svg" /></Link>
+                        </Box>
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
+                            boxShadow="dark-lg">
+                            <Link href="https://github.com/YuukaDev/Pokedex"><img src="https://gh-card.dev/repos/YuukaDev/Pokedex.svg" /></Link>
+                        </Box>
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
+                            boxShadow="dark-lg"
+                        >
+                            <Link href="https://github.com/YuukaDev/Anime-Quotes"><img src="https://gh-card.dev/repos/YuukaDev/Anime-Quotes.svg" /></Link>
+                        </Box>
                     </Grid>
                 </Box>
-            </Box>
+            </Box >
         </VStack >
     )
 }
