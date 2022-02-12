@@ -56,5 +56,3 @@ export default function Footer() {
         </Box>
     )
 }
-
-//#171717
