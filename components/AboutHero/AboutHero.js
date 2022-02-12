@@ -189,5 +189,3 @@ export default function AboutHero() {
         </VStack >
     )
 }
-
-//SiJavascript, SiHtml5, SiCss3, SiSass, SiReact, SiBootstrap, SiGit, SiVisualstudiocode
