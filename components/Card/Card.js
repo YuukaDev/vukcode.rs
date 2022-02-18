@@ -51,6 +51,7 @@ export default function Card() {
                                 transition: "0.5s all ease",
                                 transform: "scale(1.05)"
                             }}
+                            bg="#fff"
                             boxShadow="dark-lg">
                             <Link href="https://github.com/YuukaDev/GitHub-Searcher"><img src="https://gh-card.dev/repos/YuukaDev/GitHub-Searcher.svg" /></Link>
                         </Box>

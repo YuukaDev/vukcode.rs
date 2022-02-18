@@ -10,7 +10,7 @@ export default function Navigation() {
                 padding="25%"
                 justifyContent="center"
                 alignItems="center"
-                py={5}
+                py={{ sm: 3, xl: 5 }}
             >
                 <HStack alignItems="center" spacing={{ base: 0, md: 2 }}>
                     <NextLink href="/" passHref>
