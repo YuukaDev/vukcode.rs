@@ -20,7 +20,7 @@ export default function Projects() {
                     sm: "2em",
                     xl: "2.25rem"
                 }}>Featured Projects 👨‍💻</Heading>
-                <Divider width={{ sm: "70%", xl: "52%" }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
+                <Divider width={{ sm: "90%", xl: "52%" }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
             <Box>
                 <Card />
