@@ -32,6 +32,15 @@ export default function Card() {
                                 transition: "0.5s all ease",
                                 transform: "scale(1.05)"
                             }}
+                            boxShadow="dark-lg">
+                            <Link href="https://github.com/YuukaDev/Aethersio"><img src="https://gh-card.dev/repos/YuukaDev/Aethersio.svg" /></Link>
+                        </Box>
+                        <Box
+                            transition="0.5s all ease"
+                            _hover={{
+                                transition: "0.5s all ease",
+                                transform: "scale(1.05)"
+                            }}
                             bg="#fff"
                             boxShadow="dark-lg">
                             <Link href="https://github.com/YuukaDev/Foody"><img src="https://gh-card.dev/repos/YuukaDev/Foody.svg" /></Link>
@@ -63,15 +72,6 @@ export default function Card() {
                             boxShadow="dark-lg"
                         >
                             <Link href="https://github.com/YuukaDev/Anime-Quotes"><img src="https://gh-card.dev/repos/YuukaDev/Anime-Quotes.svg" /></Link>
-                        </Box>
-                        <Box
-                            transition="0.5s all ease"
-                            _hover={{
-                                transition: "0.5s all ease",
-                                transform: "scale(1.05)"
-                            }}
-                            boxShadow="dark-lg">
-                            <Link href="https://github.com/YuukaDev/Aethersio"><img src="https://gh-card.dev/repos/YuukaDev/Aethersio.svg" /></Link>
                         </Box>
                     </Grid>
                 </Box>
