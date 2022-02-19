@@ -20,32 +20,36 @@ export default function Card() {
                             <Heading as='h3' size='lg'>
                                 Xquisite
                             </Heading>
-                            <Text mt="10px" fontWeight="light">
+                            <Text fontSize="lg" mt="10px" fontWeight="light">
                                 Xquisite is an open-source discord bot made using
                                 {" "}
-                                <Link color="#ff4000" textDecoration="underline">
+                                <Link target="_blank" href="https://nodejs.org/en/" color="#ff4000" textDecoration="underline">
                                     Node.js
                                 </Link>
                                 {" "}
                                 and
                                 {" "}
-                                <Link color="#ff4000" textDecoration="underline">
+                                <Link target="_blank" href="https://discord.js.org/#/" color="#ff4000" textDecoration="underline">
                                     discord.js
                                 </Link>
                                 {" "}
                                 library it has over 60 commands that includes moderation, action, and much more, a bot is simple so that means everyone can use it, the bot is currently offline because of rework he is getting
                             </Text>
                             <Flex mt="20px" float="right" gap="10px">
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transform: rotating
-                                    }} fontSize="1.5em" as={SiGithub} />
+                                <NextLink href="https://github.com/YuukaDev/Xquisite" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                    </Link>
                                 </NextLink>
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transition: '0.5s all ease',
-                                        transform: rotating
-                                    }} fontSize="1.5em" as={BiLinkExternal} />
+                                <NextLink href="https://xquisite.netlify.app/" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transition: '0.5s all ease',
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                    </Link>
                                 </NextLink>
                             </Flex>
                         </Box>
@@ -58,14 +62,14 @@ export default function Card() {
                             <Heading as='h3' size='lg'>
                                 Aethersio
                             </Heading>
-                            <Text mt="10px" fontWeight="light">
+                            <Text fontSize="lg" mt="10px" fontWeight="light">
                                 Aethersio is a chat application made with
                                 {" "}
-                                <Link color="#ff4000" textDecoration="underline" href="/">
+                                <Link target="_blank" href="https://nextjs.org/" color="#ff4000" textDecoration="underline">
                                     Next.js
                                 </Link>
                                 {" "}
-                                and <Link color="#ff4000" textDecoration="underline">
+                                and <Link target="_blank" href="https://socket.io/" color="#ff4000" textDecoration="underline">
                                     {" "}
                                     Socket.io
                                 </Link>
@@ -73,16 +77,20 @@ export default function Card() {
                                 connected with the back-end it has a feature like GitHub authentication provided by firebase, the application is not finished there are some things to be added and fixed, you can contribute to this project if you like as this project is public
                             </Text>
                             <Flex float="right" gap="10px">
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                <NextLink href="https://github.com/YuukaDev/Aethersio" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                    </Link>
                                 </NextLink>
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transition: '0.5s all ease',
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                <NextLink href="/" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transition: '0.5s all ease',
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                    </Link>
                                 </NextLink>
                             </Flex>
                         </Box>
@@ -95,31 +103,35 @@ export default function Card() {
                             <Heading as='h3' size='lg'>
                                 Foodyya
                             </Heading>
-                            <Text mt="10px" fontWeight="light">
+                            <Text mt="10px" fontSize="lg" fontWeight="light">
                                 Foodyya is a search engine application where you can search for your favorite recipes around the world, the application is using Recipe Search API and it has been created with
                                 {" "}
-                                <Link color="#ff4000" textDecoration="underline" href="/">
+                                <Link target="_blank" href="https://reactjs.org/" color="#ff4000" textDecoration="underline">
                                     React
                                 </Link>
                                 {" "}
                                 and
                                 styled with
                                 {" "}
-                                <Link color="#ff4000" textDecoration="underline" href="/">
+                                <Link target="_blank" href="https://chakra-ui.com/" color="#ff4000" textDecoration="underline">
                                     Chakra UI
                                 </Link>
                             </Text>
                             <Flex mt="70px" float="right" gap="10px">
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                <NextLink href="https://github.com/YuukaDev/Foody" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                    </Link>
                                 </NextLink>
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transition: '0.5s all ease',
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                <NextLink href="https://foody-react.vercel.app/" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transition: '0.5s all ease',
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                    </Link>
                                 </NextLink>
                             </Flex>
                         </Box>
@@ -132,20 +144,33 @@ export default function Card() {
                             <Heading as='h3' size='lg'>
                                 vukcode.rs
                             </Heading>
-                            <Text mt="10px" fontWeight="light">
-                                My personal website portfolio built with Next.js and styled with Chakra UI
+                            <Text fontSize="lg" mt="10px" fontWeight="light">
+                                My personal website portfolio built with
+                                {" "}
+                                <Link target="_blank" href="https://nextjs.org/" color="#ff4000" textDecoration="underline">
+                                    Next.js
+                                </Link>
+                                {" "}
+                                and styled with
+                                <Link target="_blank" href="https://chakra-ui.com/" color="#ff4000" textDecoration="underline">
+                                    Chakra UI
+                                </Link>
                             </Text>
                             <Flex mt="150px" float="right" gap="10px">
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                <NextLink target="bla" href="https://github.com/YuukaDev/vukcode.rs" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={SiGithub} />
+                                    </Link>
                                 </NextLink>
-                                <NextLink href="/">
-                                    <Icon transition="0.5s all ease" _hover={{
-                                        transition: '0.5s all ease',
-                                        transform: rotating
-                                    }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                <NextLink href="https://www.vukcode.rs/" passHref>
+                                    <Link target="_blank">
+                                        <Icon transition="0.5s all ease" _hover={{
+                                            transition: '0.5s all ease',
+                                            transform: rotating
+                                        }} mb="15px" fontSize="1.5em" as={BiLinkExternal} />
+                                    </Link>
                                 </NextLink>
                             </Flex>
                         </Box>
