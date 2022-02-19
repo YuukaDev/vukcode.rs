@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Box, Heading, VStack, Grid, GridItem, Divider, Link, Flex } from "@chakra-ui/react";
 
 import Card from "../Card/Card";
+import CardTwo from "../CardTwo/CardTwo";
 
 export default function Projects() {
     return (
@@ -14,7 +15,7 @@ export default function Projects() {
                 sm: "90%",
                 md: "50%",
                 lg: "50%",
-                xl: "35% ",
+                xl: "36% ",
             }} float="left">
                 <Heading fontSize={{
                     sm: "2em",
@@ -23,7 +24,7 @@ export default function Projects() {
                 <Divider width={{ sm: "90%", xl: "52%" }} mt="15px" mb="10px" bg="#ff4000" padding="1px" />
             </Box>
             <Box>
-                <Card />
+                <CardTwo />
             </Box>
         </VStack >
     )

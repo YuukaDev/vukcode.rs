@@ -41,7 +41,6 @@ export default function Card() {
                                 transition: "0.5s all ease",
                                 transform: "scale(1.05)"
                             }}
-                            bg="#fff"
                             boxShadow="dark-lg">
                             <Link href="https://github.com/YuukaDev/Foody"><img src="https://gh-card.dev/repos/YuukaDev/Foody.svg" /></Link>
                         </Box>

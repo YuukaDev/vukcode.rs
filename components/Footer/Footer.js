@@ -1,4 +1,4 @@
-import { Box, Text, Link, Container, Stack, Icon } from "@chakra-ui/react";
+import { Box, Text, Link, Container, Stack, Icon, useColorMode, color } from "@chakra-ui/react";
 
 import { FiGithub } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
@@ -6,10 +6,11 @@ import { FiLinkedin } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Footer() {
+    const { colorMode } = useColorMode();
     return (
-        <Box bg="#171717">
+        <Box bg={colorMode === 'dark' ? "#171717" : 'gray.200'} >
             <Container
-                color="#fff"
+                color={colorMode === 'dark' ? "#fff" : '#000'}
                 as={Stack}
                 maxW={'6xl'}
                 py={4}
@@ -53,6 +54,6 @@ export default function Footer() {
                     </Link>
                 </Stack>
             </Container>
-        </Box>
+        </ Box>
     )
 }
