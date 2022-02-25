@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 import { Box, Heading, VStack, Grid, GridItem, Divider, Link, Flex } from "@chakra-ui/react";
 
-import Card from "../Card/Card";
 import CardTwo from "../CardTwo/CardTwo";
 
 export default function Projects() {

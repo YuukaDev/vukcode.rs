@@ -2,11 +2,8 @@
 import { VStack, Box, Heading, Divider, Text, Flex, Link } from "@chakra-ui/react";
 import Hero from "../components/Hero/Hero";
 import Navigation from "../components/Navigation/Navigation";
-import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import Particles from "../components/Particles/Particles";
-
 
 export default function Test() {
 
