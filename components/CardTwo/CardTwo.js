@@ -1,6 +1,7 @@
 
 import NextLink from "next/link";
 import { Box, Grid, GridItem, Heading, Icon, Link, Text, Flex, useColorMode, Divider } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icon";
 import { SiGithub } from "react-icons/si"
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -9,7 +10,7 @@ export default function Card() {
     const rotating = 'rotate(-26deg)';
     return (
         <>
-            <Box>
+            <Box mb="3em">
                 <br />
                 <Grid width={{ sm: "300px", xl: "700px" }} gridTemplateColumns={{ sm: "repeat(1, 1fr)", xl: "repeat(2, 2fr)" }} gap="25px">
                     <GridItem lineHeight="20px" height="100%" transition="0.5s all ease" cursor="pointer" border="1.5px solid #ff4000" borderRadius="xl" _hover={{
@@ -24,13 +25,13 @@ export default function Card() {
                                 Xquisite is an open-source discord bot made using
                                 {" "}
                                 <Link target="_blank" href="https://nodejs.org/en/" color="#ff4000" textDecoration="underline">
-                                    Node.js
+                                    Node.js <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 and
                                 {" "}
                                 <Link target="_blank" href="https://discord.js.org/#/" color="#ff4000" textDecoration="underline">
-                                    discord.js
+                                    discord.js <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 library it has over 60 commands that includes moderation, action, and much more, a bot is simple so that means everyone can use it, the bot is currently offline because of rework he is getting
@@ -66,12 +67,12 @@ export default function Card() {
                                 Aethersio is a chat application made with
                                 {" "}
                                 <Link target="_blank" href="https://nextjs.org/" color="#ff4000" textDecoration="underline">
-                                    Next.js
+                                    Next.js <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 and <Link target="_blank" href="https://socket.io/" color="#ff4000" textDecoration="underline">
                                     {" "}
-                                    Socket.io
+                                    Socket.io <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 connected with the back-end it has a feature like GitHub authentication provided by firebase, the application is not finished there are some things to be added and fixed, you can contribute to this project if you like as this project is public
@@ -107,14 +108,14 @@ export default function Card() {
                                 Foodyya is a search engine application where you can search for your favorite recipes around the world, the application is using Recipe Search API and it has been created with
                                 {" "}
                                 <Link target="_blank" href="https://reactjs.org/" color="#ff4000" textDecoration="underline">
-                                    React
+                                    React <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 and
                                 styled with
                                 {" "}
                                 <Link target="_blank" href="https://chakra-ui.com/" color="#ff4000" textDecoration="underline">
-                                    Chakra UI
+                                    Chakra UI <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                             </Text>
                             <Flex mt="70px" float="right" gap="10px">
@@ -148,12 +149,13 @@ export default function Card() {
                                 My personal website portfolio built with
                                 {" "}
                                 <Link target="_blank" href="https://nextjs.org/" color="#ff4000" textDecoration="underline">
-                                    Next.js
+                                    Next.js <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                                 {" "}
                                 and styled with
+                                {" "}
                                 <Link target="_blank" href="https://chakra-ui.com/" color="#ff4000" textDecoration="underline">
-                                    Chakra UI
+                                    Chakra UI <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                             </Text>
                             <Flex mt="150px" float="right" gap="10px">

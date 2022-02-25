@@ -1,7 +1,13 @@
-import Projects from "../layout/projects"
+import Projects from "../layout/projects";
+import Head from "next/head";
 
 export default function ProjectsPage() {
     return (
-        <Projects />
+        <>
+            <Head>
+                <title>Projects - Yuuka</title>
+            </Head>
+            <Projects />
+        </>
     )
 }
