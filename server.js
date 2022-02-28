@@ -8,7 +8,6 @@ const port = process.env.port || 3000;
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
 
-
 app.prepare().then(() => {
     createServer(async (req, res) => {
         try {
