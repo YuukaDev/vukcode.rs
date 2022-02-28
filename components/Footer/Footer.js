@@ -42,7 +42,7 @@ export default function Footer() {
                             <FiTwitter />
                         </Icon>
                     </Link>
-                    <Link target="_blank" href="https://www.linkedin.com/in/yuuka-suoh-b996111b5/">
+                    <Link target="_blank" href="#">
                         <Icon fontSize="1.3em">
                             <FiLinkedin />
                         </Icon>
