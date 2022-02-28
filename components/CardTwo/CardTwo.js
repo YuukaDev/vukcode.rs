@@ -118,7 +118,7 @@ export default function Card() {
                                     Chakra UI <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                             </Text>
-                            <Flex mt="70px" float="right" gap="10px">
+                            <Flex mt="40px" float="right" gap="10px">
                                 <NextLink href="https://github.com/YuukaDev/Foody" passHref>
                                     <Link target="_blank">
                                         <Icon transition="0.5s all ease" _hover={{
@@ -158,7 +158,7 @@ export default function Card() {
                                     Chakra UI <Icon fontSize="15px" as={BiLinkExternal} />
                                 </Link>
                             </Text>
-                            <Flex mt="150px" float="right" gap="10px">
+                            <Flex mt="100px" float="right" gap="10px">
                                 <NextLink target="bla" href="https://github.com/YuukaDev/vukcode.rs" passHref>
                                     <Link target="_blank">
                                         <Icon transition="0.5s all ease" _hover={{
