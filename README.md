@@ -1,8 +1,10 @@
 # Personal Portfolio 🎉
-Made With : 
-* [Next.js](https://nextjs.org/)
-* [Chakra UI](https://chakra-ui.com/)
-* [React Icons](https://react-icons.github.io/react-icons/)
+
+Made With :
+
+- [Next.js](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Getting Started
 
