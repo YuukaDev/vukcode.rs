@@ -10,12 +10,13 @@ export default function FormComp() {
     const [subject, setSubject] = useState("");
     return (
         <VStack>
-            <form action="https://formsubmit.co/0a659b40cd7c824cd255011d92034184" method="POST">
+            <form action="https://formsubmit.co/90adeb8f3cf4e253525d1de3241cd17a" method="POST">
                 <Box width={{ sm: "330px", xl: "400px" }}>
                     <input type="hidden" name="_next" value="http://localhost:3000/" />
                     <input type="hidden" name="_captcha" value="false" />
                     <Input
                         value={name}
+                        name="name"
                         mb="10px"
                         variant="outline"
                         type="text"
@@ -25,6 +26,7 @@ export default function FormComp() {
                     />
                     <Input
                         value={email}
+                        name="email"
                         mb="10px"
                         variant="outline"
                         type="email"
@@ -34,6 +36,7 @@ export default function FormComp() {
                     />
                     <Textarea
                         value={subject}
+                        name="message"
                         variant="outline"
                         placeholder="Message"
                         size="lg"
