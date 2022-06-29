@@ -85,7 +85,7 @@ export default function Card() {
                                         }} mb="15px" fontSize="1.5em" as={SiGithub} />
                                     </Link>
                                 </NextLink>
-                                <NextLink href="/" passHref>
+                                <NextLink href="https://aethersio.vercel.app/" passHref>
                                     <Link target="_blank">
                                         <Icon transition="0.5s all ease" _hover={{
                                             transition: '0.5s all ease',
