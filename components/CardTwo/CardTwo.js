@@ -1,12 +1,9 @@
-
 import NextLink from "next/link";
-import { Box, Grid, GridItem, Heading, Icon, Link, Text, Flex, useColorMode, Divider } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icon";
+import { Box, Grid, GridItem, Heading, Icon, Link, Text, Flex } from "@chakra-ui/react";
 import { SiGithub } from "react-icons/si"
 import { BiLinkExternal } from "react-icons/bi";
 
 export default function Card() {
-    const { colorMode } = useColorMode();
     const rotating = 'rotate(-26deg)';
     return (
         <>

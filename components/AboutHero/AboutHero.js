@@ -166,16 +166,6 @@ export default function AboutHero() {
             xl: "2em",
           }}
         >
-          <Tooltip label="HTML5" fontSize="md">
-            <span>
-              <Icon as={SiHtml5} />
-            </span>
-          </Tooltip>
-          <Tooltip label="CSS3" fontSize="md">
-            <span>
-              <Icon as={SiCss3} />
-            </span>
-          </Tooltip>
           <Tooltip label="Java Script" fontSize="md">
             <span>
               <Icon as={SiJavascript} />
@@ -186,11 +176,6 @@ export default function AboutHero() {
               <Icon as={FaNodeJs} />
             </span>
           </Tooltip>
-          <Tooltip label="Sass" fontSize="md">
-            <span>
-              <Icon as={SiSass} />
-            </span>
-          </Tooltip>
           <Tooltip label="React" fontSize="md">
             <span>
               <Icon as={SiReact} />
@@ -199,6 +184,11 @@ export default function AboutHero() {
           <Tooltip label="Next.js" fontSize="md">
             <span>
               <Icon as={SiNextdotjs} />
+            </span>
+          </Tooltip>
+          <Tooltip label="Sass" fontSize="md">
+            <span>
+              <Icon as={SiSass} />
             </span>
           </Tooltip>
           <Tooltip label="Bootstrap" fontSize="md">
